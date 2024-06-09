@@ -1,17 +1,37 @@
+.center {
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers children horizontally */
+  align-items: center; /* Centers children vertically */
+  height: 100vh; /* Takes full viewport height */
+}
+
 .eyeball {
-  width: 400px;
-  height: 300px;
-  border-radius: 200px / 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   background-color: #eee;
   position: relative;
   overflow: hidden;
-  margin: 100px auto;
+  margin: 50px; /* Adjust margin for better spacing */
+}
+
+.pupil1 {
+  background-image: url("/images/bocchi-eye.png"); /* Existing image */
+  background-position: 45% 47%;
+  background-size: 1200%;
+  object-fit: cover;
+}
+
+.pupil2 {
+  background-image: url("/images/bocchi-eye.png"); /* New image for the second pupil */
+  background-position: 45% 47%; /* Adjust if needed */
+  background-size: 1200%;
+  object-fit: cover;
 }
 
 .pupil {
   width: 80px;
   height: 100px;
-  background-color: black;
   border-radius: 40px / 50px;
   position: absolute;
   top: 50%;
