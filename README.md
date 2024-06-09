@@ -1,0 +1,1 @@
+original eye that follow mouse only tracked one eye where it would rotate the eyeball and not the pupil to give the illusion of the pupils following the mouse. Here each individual pupil is tracking where the mouse is. Mostly inspired by live2d model eyes / vtuber eyes
