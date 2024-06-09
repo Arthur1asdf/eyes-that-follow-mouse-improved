@@ -1,0 +1,20 @@
+.eyeball {
+  width: 400px;
+  height: 300px;
+  border-radius: 200px / 150px;
+  background-color: #eee;
+  position: relative;
+  overflow: hidden;
+  margin: 100px auto;
+}
+
+.pupil {
+  width: 80px;
+  height: 100px;
+  background-color: black;
+  border-radius: 40px / 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
