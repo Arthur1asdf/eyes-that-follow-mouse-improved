@@ -8,6 +8,7 @@ document.addEventListener("mousemove", function (e) {
 
   eyeballs.forEach((eyeball) => {
     const pupil = eyeball.querySelector(".pupil");
+
     const eyeballRect = eyeball.getBoundingClientRect();
 
     const centerX = eyeballRect.left + eyeballRect.width / 2;
@@ -22,7 +23,7 @@ document.addEventListener("mousemove", function (e) {
     const radiusX = eyeballRect.width / 2 - pupil.offsetWidth / 2;
     const radiusY = eyeballRect.height / 2 - pupil.offsetHeight / 2;
 
-    const maxEffectDistance = Math.max(radiusX, radiusY) * 4;
+    const maxEffectDistance = Math.max(radiusX, radiusY) * 60;
     const influence = Math.min(cursorDistance / maxEffectDistance, 1);
 
     const maxPupilDistanceX = radiusX * influence;
@@ -30,7 +31,7 @@ document.addEventListener("mousemove", function (e) {
 
     const angle = Math.atan2(distanceY, distanceX);
 
-    const extendBoundary = 1.2;
+    const extendBoundary = 1.7;
     const pupilX = extendBoundary * maxPupilDistanceX * Math.cos(angle);
     const pupilY = extendBoundary * maxPupilDistanceY * Math.sin(angle);
 
