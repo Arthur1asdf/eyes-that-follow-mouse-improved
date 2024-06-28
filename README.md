@@ -12,6 +12,6 @@ When mouse clicks hide bocchi button her eyes will bulge out cartoonishly like t
 
 after a couple of seconds she disappears
 ![Screenshot 2024-06-27 212016](https://github.com/Arthur1asdf/eyes-that-follow-mouse-improved/assets/138413173/5c39697b-51c7-4a6d-80cf-6b0da5e03231)
-When you click the hide bocchi button again
+When you click the hide bocchi button again she spawns back in and she functions normally so when you stop hovering over the button, her eyes will go back to normal
 ![Screenshot 2024-06-27 212028](https://github.com/Arthur1asdf/eyes-that-follow-mouse-improved/assets/138413173/7d14609a-8c36-4718-9165-d79373f2f284)
 
