@@ -5,9 +5,19 @@ body {
   justify-content: center; /* Centers children horizontally */
   align-items: center; /* Centers children vertically */
 }
-.bocchi {
+#bocchi {
   position: absolute;
-  top: 15%;
+  top: 10%;
+  width: 700px;
+  height: 600px;
+  background-size: cover;
+  background-image: url(/images/bocchi-face.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bulgingBocchi {
+  position: absolute;
+  top: 10%;
   width: 700px;
   height: 600px;
   background-size: cover;
@@ -16,6 +26,54 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+#leftEye {
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border-radius: 50%;
+  transition: width 2s;
+}
+#leftPupil {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+#rightEye {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border-radius: 50%;
+  transition: width 2s;
+}
+#rightPupil {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+#caption {
+  background-color: white;
+  margin-top: 500px;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bolder;
+  margin-left: 100px;
+}
 .center {
   display: flex; /* Enables Flexbox */
   justify-content: center; /* Centers children horizontally */
@@ -23,7 +81,7 @@ body {
   height: 100%;
 }
 
-.eyeball1 {
+#eyeball1 {
   width: 110px;
   height: 125px;
   border-radius: 20% 40% 45% 50%; /* Adjust to maintain the circle shape */
@@ -35,14 +93,16 @@ body {
   top: -3%;
 }
 
-.eyeball2 {
+#eyeball2 {
   width: 90px; /* Smaller size */
   height: 120px;
   border-radius: 20% 50% 50% 50%; /* Adjust to maintain the circle shape */
   /* background-color: black;
   opacity: 50%; */
   position: relative;
+  /* CHANGE BACK */
   overflow: hidden;
+
   top: 1%;
   left: 10%;
 }
@@ -56,16 +116,35 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.pupil1 {
+#pupil1 {
   background-image: url("/images/bocchi-eye.png"); /* Existing image */
   background-position: 45% 47%;
   background-size: 1200%;
   object-fit: cover;
 }
 
-.pupil2 {
+#pupil2 {
   background-image: url("/images/bocchi-eye2.png"); /* New image for the second pupil */
   background-position: 63% 52%; /* Adjust if needed */
   background-size: 1200%;
   object-fit: cover;
+}
+
+#hideBocchiOuterRadius {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  width: 150px;
+  height: 150px;
+  right: 0;
+  top: 20%;
+  border-radius: 50%;
+}
+#hideBocchi {
+  background-color: grey;
+  color: white;
+  width: 100px;
+  height: 100px;
 }
