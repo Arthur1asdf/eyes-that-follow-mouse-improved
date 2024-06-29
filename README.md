@@ -7,7 +7,7 @@ When mouse is on the bottom right of the screen
 ![Screenshot 2024-06-27 211831](https://github.com/Arthur1asdf/eyes-that-follow-mouse-improved/assets/138413173/ee727bb8-c7ec-4c82-9144-f63184f1239a)
 When mouse is hovered over the hide bocchi button
 ![Screenshot 2024-06-27 211942](https://github.com/Arthur1asdf/eyes-that-follow-mouse-improved/assets/138413173/0a7adefb-aceb-45a4-9e60-1d6bd0ec9365)
-When mouse clicks hide bocchi button her eyes will bulge out cartoonishly like this
+When mouse clicks hide bocchi button her eyes will slowly bulge out cartoonishly like this
 ![Screenshot 2024-06-27 212002](https://github.com/Arthur1asdf/eyes-that-follow-mouse-improved/assets/138413173/cd58247c-03cd-4517-848d-89bb790a5e8f)
 
 after a couple of seconds she disappears
